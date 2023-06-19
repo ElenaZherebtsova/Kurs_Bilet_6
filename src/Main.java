@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        bilet6();
+        bilet6(10);
     }
 
-        public static void  bilet6 (){
+    public static int bilet6(int number) {
         System.out.println("Квадрат числа:");
-        int a1 = 14;
-        int a2 = a1 * a1;
-        System.out.println("a2 = " + a2);
-
+        int kvadrat = number * number;
+        System.out.println("a2 = " + kvadrat);
+        return kvadrat;
     }
 }
